@@ -11,6 +11,8 @@ public class City extends DataModule
 	protected Heightmap heightmap;
 	protected Watermap watermap;
 	protected Enviromap enviromap;
+	protected Roadmap roadmap;
+	protected Buildingmap buildingmap;
 	
 	// Create a new, empty city.
 	public City()

@@ -54,7 +54,7 @@ public class Heightmap extends DataModule
 	// Get Y size
 	public int getSizeY()
 	{
-		// Rip the seize from the map data array
+		// Rip the size from the map data array
 		return map[0].length;
 	}
 	

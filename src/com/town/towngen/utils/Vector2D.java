@@ -28,4 +28,22 @@ public class Vector2D
 		this.x = (float)x;
 		this.y = (float)y;
 	}
+	
+	// Create an empty Vector2D
+	public Vector2D()
+	{
+		this.x = 0f;
+		this.y = 0f;
+	}
+	
+	
+	
+	// Utilities //
+	
+	// Set another Vector2Ds values to this one, while preserving the pointer
+	public void set(Vector2D value)
+	{
+		x = value.x;
+		y = value.y;
+	}
 }
